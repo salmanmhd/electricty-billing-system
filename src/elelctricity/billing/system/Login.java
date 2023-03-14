@@ -50,7 +50,7 @@ import java.sql.*;
             
             ImageIcon i3 = new ImageIcon(ClassLoader.getSystemResource("icon/cancel.jpg"));
             Image i4 = i3.getImage().getScaledInstance(16, 16, Image.SCALE_DEFAULT);
-             cancel = new JButton("cancel", new ImageIcon(i4));
+            cancel = new JButton("cancel", new ImageIcon(i4));
             cancel.setBounds(450,160,100,20);
             cancel.addActionListener(this);
             add(cancel);
